@@ -1,4 +1,4 @@
-package supermarket.price.model;
+package supermarket.price.kata.model;
 
 public class WeightPrice extends Price {
 

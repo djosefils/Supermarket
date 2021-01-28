@@ -1,4 +1,4 @@
-package supermarket.price.model;
+package supermarket.price.kata.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,8 +9,9 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Quantity {
-	
-	private double value;
+public class Product {
+    private String reference;
+    private Price price;
+    private String name;
 
 }
